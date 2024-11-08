@@ -1,9 +1,3 @@
-// const IngredientList = (props) => {
-    
-//     return <ul>// map through props.ingredients</ul>;
-//   };
-  
-//   export default IngredientList;
 const IngredientList = ({ ingredients, addToBurger }) => {
     return (
       <ul>

@@ -20,12 +20,12 @@ export const availableIngredients = [
   { name: 'Swiss Cheese', color: '#F1E1A8' },
 ];
 const App = () => {
-  const [stack, setStack] = useState([]); // Initialize the state for the burger stack
-  // Function to add an ingredient to the stack
+  const [stack, setStack] = useState([]); 
+  
   const addToBurger = (ingredient) => {
     setStack((prevStack) => [...prevStack, ingredient]);
   };
-  // Function to remove an ingredient from the stack
+  
   const removeFromBurger = (ingredientName) => {
     setStack((prevStack) =>
     prevStack.filter((ingredient) =>
